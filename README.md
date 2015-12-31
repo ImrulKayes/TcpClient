@@ -1,22 +1,11 @@
 # TcpClient
 
-//==================================================== file = tcpClient.c =====
-//=  A "client" program thats downloads file from a web- server and shows     =	
-//=  download time.
-//=============================================================================
-//=  Notes:                                                                   =
-//=    1) This program is developed using BSD socket. So, it can be run in    =
-//=       Linux.					                      =
-//=    2) This program can download a file from any Commercial Server         =
-//=       and Weblite.				                              =
-//=    3) This program hardwires the host name www.web.csee.usf.edu for       =
-//=	  commercial web-server(Apache) and www.netcluster.csee.usf.edu for   =
-//=       Weblite. #define GET_STRING  hardwires the GET request string into  =
-//=       into GET_STRING.                           
-//=    4) Use Weblite on the place of Webserver in the statement              =
-//=       #define Webserver to download a file from Weblite, given that       =
-//=       Weblite should be running before execution this program.            =
-//=       For any commercial web server keep the statement as it is.          =
+A Tcp "client" program thats downloads file from a web- server and shows  download time.
+
+Notes:                                                                   
+1) This program is developed using BSD socket. So, it can be run in Linux.					                      
+2) This program can download a file from any Commercial Server and Weblite.				 
+
 //=---------------------------------------------------------------------------=
 //=  Example execution:                                                       =
 //=	   Looking for IP address for 'web.csee.usf.edu'...                   =
